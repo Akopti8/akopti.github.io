@@ -1,0 +1,135 @@
+<style>
+    html
+       {
+           scroll-behavior:smooth;
+       }
+    body
+       {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            font-family: "sans-sarif";
+            
+       }
+    h1 { 
+        color: white; 
+        border-bottom: 4px solid white;
+       }
+    #section1
+       {
+           height: 700px;
+           background: #426e70;
+           display:inline-block;
+           width:100%;
+           background: black;
+           background-repeat: repeat;
+           
+       }
+       p
+       {
+           font-size: 30px;
+           color:beige;  
+       }
+    #section2
+       {
+           height: 700px;
+           background-color: cadetblue;
+           background: url(AI.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           /*background: url(blueakopti2.png); */
+           background-repeat: repeat;
+           display:inline-block;
+           width:100%;
+           border-bottom: 10px solid white;    
+       }
+    /*hhgghhgghhgg*/
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section {
+      width: 50%;
+      height: 100%;
+    }
+
+    video {
+      width: 100%;
+      height: 200%;
+      /*margin-top: 21.875%; */
+    }
+   .row2
+   {
+     display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      border-top: 15px solid white;
+      border-bottom: 15px solid white;
+      border-right: 15px solid white ;
+      border-left: 15px solid white ;
+      transform: translateY(30%);
+
+       
+   }
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      top: 50%;
+      transform: translateY(10%);
+      z-index: -1;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      flex: 1;
+      margin:12px;
+      border-top: 4px solid white;
+      border-bottom: 4px solid white;
+      border-right: 4px solid white ;
+      border-left: 4px solid white ;
+      z-index: -1;
+    }
+   .column233 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      flex: 1;
+      margin:1px;
+      z-index: -1;
+      background: black;
+        }
+       a.button1{
+         display:inline-block;
+         padding:1em 9em;
+         border:0.16em solid black;
+         margin:0 0.3em 0.3em 0;
+         border-radius:0.12em;
+         box-sizing: border-box;
+         text-decoration:none;
+         font-family:'Roboto',sans-serif;
+         font-weight:1000;
+         color:white;
+         text-align:center;
+         transition: all 0.2s;
+         background: black;
+         font-size: 20px;
+        }
+        a.button1:hover{
+         color:#000000;
+         background-color:#FFFFFF;
+        }
+        @media all and (max-width:30em){
+         a.button1{
+          display:block;
+          margin:0.4em auto;
+         }
+        }
+   </style>

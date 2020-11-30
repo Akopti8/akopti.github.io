@@ -1,4 +1,8 @@
-
+<?php
+if($_POST["message"]) {
+    mail("akopti@eagles.bridgewater.edu", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,7 +37,7 @@
     <input type="submit" value="Submit">
   </form>
 </div> -->
-        <center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfyOuMHIlqY29ygq0VRUcxp-42_bQwbsLsdFgqjOFzuxbRpYg/viewform?embedded=true" width="640" height="705" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfyOuMHIlqY29ygq0VRUcxp-42_bQwbsLsdFgqjOFzuxbRpYg/viewform?embedded=true" width="640" height="705" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
     
     

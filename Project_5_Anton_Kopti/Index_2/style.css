@@ -15,13 +15,17 @@
         color: white; 
         border-bottom: 4px solid white;
        }
+    span{
+        color: #2f4f50; 
+        border-bottom: 4px solid #2f4f50;
+        }
     #section1
        {
            height: 700px;
            background: #426e70;
            display:inline-block;
            width:100%;
-           background: black;
+           background: #2f4f50
            background-repeat: repeat;
            
        }
@@ -34,7 +38,7 @@
        {
            height: 700px;
            background-color: cadetblue;
-           background: url(AI.jpg);
+           background: url(AKOPTI4.png);
            background-repeat: no-repeat;
            background-size: cover;
            /*background: url(blueakopti2.png); */
@@ -104,16 +108,7 @@
       flex: 1;
       margin:1px;
       z-index: -1;
-      background: black;
-        }
-.column2334 {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      flex-basis: 100%;
-      flex: 1;
-      margin:1px;
-
+      background: #2f4f50;
         }
        a.button1{
          display:inline-block;
@@ -128,7 +123,7 @@
          color:white;
          text-align:center;
          transition: all 0.2s;
-         background: black;
+         background: #2f4f50;
          font-size: 20px;
         }
         a.button1:hover{

@@ -56,11 +56,11 @@
       height: 100%;
     }
 
-    video {
-      width: 100%;
-      height: 200%;
-      /*margin-top: 21.875%; */
-    }
+   /* iframe {
+      width: 700px;
+      height: 400px;
+     
+    } */
    .row2
    {
      display: flex;
@@ -95,7 +95,6 @@
       border-right: 4px solid white ;
       border-left: 4px solid white ;
       z-index: -1;
-      background color:RGB(54,81,94);
     }
    .column233 {
       display: flex;
@@ -106,6 +105,15 @@
       margin:1px;
       z-index: -1;
       background: url(circuitgreen.png);
+        }
+.column2334 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      flex: 1;
+      margin:1px;
+
         }
        a.button1{
          display:inline-block;

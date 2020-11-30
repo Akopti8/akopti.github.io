@@ -110,6 +110,15 @@
       z-index: -1;
       background: #2f4f50;
         }
+.column2334 {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      flex: 1;
+      margin:1px;
+
+        }
        a.button1{
          display:inline-block;
          padding:1em 9em;

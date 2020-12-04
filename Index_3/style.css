@@ -18,8 +18,10 @@
       
         p
        {
-           font-size: 30px;
-           color:beige  
+            font-size: 30px;
+            color:white; 
+            padding-right: 30px;
+            padding-left: 80px;
        }
     #section1
        {
@@ -117,7 +119,7 @@
         }
        a.button1{
          display:inline-block;
-         padding:1em 9em;
+         padding:1em 3.5em;
          border:0.16em solid black;
          margin:0 0.3em 0.3em 0;
          border-radius:0.12em;

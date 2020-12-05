@@ -21,6 +21,8 @@
         }
     #section1
        {
+           height: 800px;
+           width: 800px;
            height: 700px;
            background: #426e70;
            display:inline-block;
@@ -30,13 +32,19 @@
            overflow: scroll;
            
        }
-       p
+        p
        {
             font-size: 30px;
             color:white; 
             padding-right: 30px;
             padding-left: 80px;
        }
+        h2{
+            font-size: 35px;
+            color:white; 
+            padding-right: 30px;
+            padding-left: 80px;
+        }
     #section2
        {
            height: 700px;
@@ -50,6 +58,17 @@
            width:100%;
            border-bottom: 10px solid white;  
            overflow: scroll;
+       }
+        #section3
+       {
+           height: 1000px;
+           width: 800px;
+           background: url(circuitgreen.png);
+           display:inline-block;
+           width:100%;
+           background-repeat: no-repeat;
+           background-size: cover;   
+           overflow:scroll;
        }
     /*hhgghhgghhgg*/
     .main {

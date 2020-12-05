@@ -9,13 +9,18 @@
             padding: 0;
             font-family: sans-serif;
             font-family: "sans-sarif";
-            background-color: darkgreen;
+            background-color: url(circuitgreen.png);
        }
     h1 { 
         color: white; 
         border-bottom: 4px solid white;
        }
-      
+        h2{
+            font-size: 35px;
+            color:white; 
+            padding-right: 30px;
+            padding-left: 80px;
+        }
         p
        {
             font-size: 30px;
@@ -45,6 +50,17 @@
            border-bottom: 10px solid white;   
            background-repeat: no-repeat;
            background-size: cover;
+           overflow:scroll;
+       }
+#section3
+       {
+           height: 1000px;
+           width: 800px;
+           background: url(circuitgreen.png);
+           display:inline-block;
+           width:100%;
+           background-repeat: no-repeat;
+           background-size: cover;   
            overflow:scroll;
        }
     /*hhgghhgghhgg*/
@@ -98,6 +114,8 @@
       border-right: 4px solid white ;
       border-left: 4px solid white ;
       z-index: -1;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
    .column233 {
       display: flex;

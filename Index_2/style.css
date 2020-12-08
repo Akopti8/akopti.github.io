@@ -39,6 +39,12 @@
             padding-right: 30px;
             padding-left: 80px;
        }
+        img{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
         h2{
             font-size: 35px;
             color:white; 
@@ -61,7 +67,7 @@
        }
         #section3
        {
-           height: 1000px;
+           height: 1070px;
            width: 800px;
            background: url(circuitgreen.png);
            display:inline-block;
